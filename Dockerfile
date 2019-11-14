@@ -1,5 +1,5 @@
 FROM java:8  
-COPY . /tmp/amadou/java  
-WORKDIR /tmp/amadou/java  
-RUN javac Hello.java  
-CMD ["java", "Hello"]  
+COPY . /Users/a.guindo/Documents/dockerformation
+WORKDIR /Users/a.guindo/Documents/dockerformation  
+RUN javac PrintHelloDocker.java
+CMD ["java", "PrintHelloDocker.java"]  
