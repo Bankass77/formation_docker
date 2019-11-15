@@ -1,4 +1,4 @@
-#Image de base
+#Image test de  base
 FROM  phusion/baseimage:0.9.17
 
 MAINTAINER  GUINDO Amadou
