@@ -1,5 +1,6 @@
 #Image de base
 FROM ubuntu
+MAINTENAIR amadouguindo
 # Update et installation dejava 1.8
 RUN  apt-get update && install java:8
 # Nettoyage du gestionnaire de package
