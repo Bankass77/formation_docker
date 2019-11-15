@@ -21,7 +21,7 @@ RUN echo 'deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main' >> /
     apt-get clean && \
     rm -rf /var/cache/oracle-jdk${JAVA_VER}-installer
 
-RUN update-java-alternatives -s java-8-oracle
+RUN apt-get install openjdk-8-jdk
 
 RUN echo "export JAVA_HOME=/usr/lib/jvm/java-8-oracle" >> ~/.bashrc
 
